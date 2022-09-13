@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 :root {
-  --main-bg-color: #1e1f26;
+  --main-bg-color: #242424;
   --main-text-color: #ccc;
 }
 
@@ -21,7 +21,16 @@ body {
   transition: all ease 0.2s;
 }
 
+h1 {
+  color: var(--main-text-color);
+  font-size: 5rem;
+}
+
 .clock {
+  // border-radius: 129px;
+  // background: #181818;
+  // box-shadow: inset 24px 24px 48px #171717,
+  //             inset -24px -24px 48px #191919;
   min-height: 18em;
   min-width: 18em;
   display: flex;
